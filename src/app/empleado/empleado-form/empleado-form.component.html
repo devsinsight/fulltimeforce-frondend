@@ -1,0 +1,21 @@
+<div>
+  <div>
+    <label>Nombre:</label>
+    <input type="text" [(ngModel)]="nombre" />
+  </div>
+  <div>
+    <label>Precio:</label>
+    <input type="number" [(ngModel)]="precio" />
+  </div>
+  <div>
+    <label>Horas x Mes:</label>
+    <input type="number" [(ngModel)]="horas" />
+  </div>
+  <div>
+    <label>Años trabajados:</label>
+    <input type="number" [(ngModel)]="aniosTrabajados" />
+  </div>
+  <button (click)="calcular()">Calcular</button>
+</div>
+<br />
+{{ result }}

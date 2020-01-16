@@ -1,0 +1,16 @@
+<div>
+  <h2>Alumnos Aprobados</h2>
+  <ul>
+    <li *ngFor="let a of alumnosAprobados">{{ a.name }} - {{ a.nota }}</li>
+  </ul>
+</div>
+<div>
+  <h2>Alumnos Desaprobados</h2>
+  <ul>
+    <li *ngFor="let a of alumnosDesaprobados">{{ a.name }} - {{ a.nota }}</li>
+  </ul>
+</div>
+<div>
+  <h2>Promedio Notas</h2>
+  <strong>{{ promedioNotas }}</strong>
+</div>
